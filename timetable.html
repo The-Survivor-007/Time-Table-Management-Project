@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Timetable Management System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Timetable Management</h1>
+        <form id="schedule-form">
+            <input type="text" id="subject" placeholder="Subject" required>
+            <input type="text" id="day" placeholder="Day" required>
+            <input type="time" id="time" required>
+            <button type="button" onclick="addSchedule()">Add to Schedule</button>
+        </form>
+        <table id="schedule-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <!-- timetable.html -->
+<button onclick="logout()">Logout</button>
+<!-- Keep this button somewhere convenient for users -->
+
+    </div>
+    <script src="script.js">
+        </script>
+</body>
+</html>
